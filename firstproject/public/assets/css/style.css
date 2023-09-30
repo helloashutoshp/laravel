@@ -1,0 +1,354 @@
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+
+.fixed-top {
+    box-shadow: 0 0.125rem 0.675rem rgb(0 0 0 / 5%);
+}
+
+#header .navbar-nav .nav-item .nav-link {
+    color: black;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+
+#header .navbar-nav .nav-item .nav-link:hover,
+#header .navbar-nav .nav-item .nav-link.active{
+color:red;
+}
+
+
+
+
+
+.navbar-toggler:icon {
+    width: unset;
+    height: unset;
+
+}
+
+#header .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+.home .home-banner-1,
+.home .home-banner-2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% center;
+    min-height: 650px;
+    position: relative;
+
+}
+
+.home .home-banner-1 {
+    background-image: url('../images/caar2.jpg');
+}
+
+.home .home-banner-2 {
+    background-image: url('../images/caar1.jpg');
+}
+
+ .home-banner-text-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, -50%);
+}
+
+.home-banner-text-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-140%, -50%);
+}
+
+.home .home-banner .home-banner-text-1 h1,
+.home .home-banner .home-banner-text-2 h1 {
+    font-size: 6rem;
+}
+
+.home .carousel-indicators [data-bs-target] {
+    background-color: red;
+}
+
+.home .carousel-control-prev-icon,
+.home .carousel-control-next-icon {
+    background: transparent;
+}
+
+.home .slider-icon {
+    font-weight: 600;
+
+    font-size: 3rem;
+    color: darkred;
+}
+
+.offer-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.offer-info {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-bigger {
+    font-size: 4.37rem;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: white;
+
+}
+
+.offer-title-1 {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+
+
+}
+
+.products{
+    padding-top: 4.75rem;
+}
+
+.headline h2::before{
+    content: "";
+    width:50%;
+    height:0.125rem;
+    background-color: red;
+    position: absolute;
+    bottom:0;
+    transform: translate(45%,-50%);
+}
+
+.products a{
+    text-decoration: none;
+    color:black
+}
+
+
+.product-list .product-image .product-image-secondary{
+    opacity:0;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+}
+
+.product-list .product-image:hover .product-image-secondary{
+    opacity:1;
+    
+}
+
+.product-list .product-image .sale{
+    background: red;
+    border-radius: 0.313rem;
+    color:white;
+    font-size: 0.813rem;
+    letter-spacing: 0.125rem;
+    padding:0.125rem 0.0813rem;
+    text-transform: uppercase;
+    position: absolute;
+    left:1rem;
+    top:1.188rem;
+   
+}
+
+.product-list .product-image .sale1{
+    background: red;
+    border-radius: 0.313rem;
+    color:white;
+    font-size: 0.813rem;
+    letter-spacing: 0.125rem;
+    padding:0.125rem 0.0813rem;
+    text-transform: uppercase;
+    position: absolute;
+    left:1rem;
+    top:1.188rem;
+    opacity:0;
+   
+}
+
+.product-list .product-image:hover .sale1{
+    opacity:1;
+    
+}
+
+
+.product-list .product-name h3:hover{
+color:red;
+}
+
+.product-list .product-name .amount{
+    color:green;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.product-list .product-name .amount del{
+    color:red;
+    font-size: 1rem;
+}
+
+.product-list .product-name .ti-star{
+    color:grey;
+}
+
+.product-list .product-name .active{
+    color:darkgreen;
+    font-weight: bold;
+}
+
+.product-list .product-name .buto{
+    font-weight: bold;
+}
+
+.products .up_to_off img{
+    transition: 0.5s;
+}
+.products .up_to_off:hover img{
+  transform: scale(1.1);
+
+}
+
+.txt{
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: translate(35%,-350%)
+    
+}
+
+.special .special-img .sale{
+    background: red;
+    border-radius: 0.313rem;
+    color:white;
+    font-size: 0.813rem;
+    letter-spacing: 0.125rem;
+    padding:0.125rem 0.0813rem;
+    text-transform: uppercase;
+    position: absolute;
+    left:1rem;
+    top:1.188rem;
+}
+
+.special  {
+padding:6rem 0;
+background:whitesmoke;
+}
+
+
+
+.special .countdown-container .countdown-counter li{
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+    width:15%;
+    
+}
+    .special .countdown-container .countdown-price{
+        font-size: 2rem;
+        color: green;
+    }
+    .special .countdown-container .countdown-price del{
+        font-size: 1rem;
+        color: red;
+    }
+
+    .testimonial{
+        padding:5rem 0 8rem;
+    }
+
+    .testimonial .testimonial-wrapper img{
+        border-radius: 100%;
+        width:5rem;
+        height:5rem;
+
+    }
+
+    .testimonial .testimonial-wrapper span{
+        color: grey;
+        font-weight: bold;
+    }
+
+    .testimonial .testimonial-wrapper p{
+        line-height: 1.5rem;
+    }
+
+    .testimonial .carousel-indicators [data-bs-target] {
+        background-color: red;
+    }
+
+    .testimonial .carousel-indicators{
+        transform: translate(0%,150%);
+    }
+    
+    .testimonial .carousel-control-prev-icon,
+    .testimonial .carousel-control-next-icon {
+        background: transparent;
+        
+    }
+    
+    .testimonial .slider-icon {
+        font-weight: 600;
+    
+        font-size: 3rem;
+        color: darkred;
+    }
+
+    .contact{
+        padding:2rem 0;
+        background-color: cadetblue;
+    }
+
+    .contact .info li p {
+        font-size: 1rem;
+        display: inline-block;
+        margin:0.75rem 0;
+        color:black
+    }
+    .contact .form-group{
+        padding-bottom: 1.5rem;
+    }
+
+    .copy{
+        background-color:grey;
+    }
+
+    .copy p
+    {
+        color:white;
+        
+    }
+
+
+  
