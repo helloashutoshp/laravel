@@ -16,6 +16,8 @@ class PageController extends Controller
    public function op(){
     return view('ll');
    }
- 
+public function home(){
+   return view('welcome');
+} 
 
 }

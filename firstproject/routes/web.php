@@ -3,6 +3,10 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\mainController;
+use App\Http\Controllers\user;
+use App\Models\Customer;
+
+
 
 
 
@@ -96,3 +100,12 @@ use App\Http\Controllers\mainController;
 Route::get('/home{id}',[PageController::class,'temp']) -> name('home');
 Route::get('/hu',[PageController::class,'op']);
 Route::resource('/photos',mainController::class);
+Route::get('/',[PageController::class,'home']);
+Route::get('/regd',[user::class,'regd']); 
+Route::post('/regd',[user::class,'detail']);
+Route::get('/customer',function(){
+    $customer = Customer::all();
+    echo "<pre>";
+
+print_r($customer->toArray());
+});

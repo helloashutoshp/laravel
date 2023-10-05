@@ -29,7 +29,7 @@
  
 
   <section id="home" class="home overflow-hidden" style="margin-top:60px">
-    <h1>{{$id}}</h1>
+    {{-- <h1>{{$id}}</h1> --}}
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators in">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
